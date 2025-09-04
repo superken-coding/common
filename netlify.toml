@@ -1,5 +1,5 @@
 [build]
-  command = "ls netlify .netlify netlify/functions -al"
+  command = "find netlify -maxdepth 2 -type f -o -type d | sort"
   publish = "public"
 
 [dev]
