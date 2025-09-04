@@ -1,6 +1,7 @@
 [build]
+  command = "ls -al"
   functions = "netlify/functions"
-  publish = "."
+  publish = "public"
 
 [dev]
   publish = "public"
