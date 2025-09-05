@@ -1,5 +1,5 @@
 [build]
-  command = "find netlify -maxdepth 2 -type f -o -type d | sort"
+  command = "npm install @netlify/neon -S"
   publish = "public"
 
 [dev]
