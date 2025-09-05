@@ -1,5 +1,5 @@
 
-import { supabase } from "..";
+import { supabase } from "../../utils/db";
 
 export default async () => {
 
